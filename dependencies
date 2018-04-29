@@ -1,0 +1,6 @@
+flask
+flask_googlemaps
+geocoder
+json
+urllib2
+requests

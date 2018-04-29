@@ -1,0 +1,57 @@
+<div>
+	{{
+    googlemap(
+        identifier="no-controls-map",
+        lat=lat,
+        lng=lng,
+        zoom_control=False,
+        maptype_control=False,
+        scale_control=False,
+        streetview_control=False,
+        rotate_control=False,
+        fullscreen_control=False,
+        markers=[(lat, lng)]
+    )
+}}
+</div>
+<table>
+<thead>
+<tr>
+<th>Parameters</th>
+<th>Values</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td>C0</td>
+<td id="co"> {{co}} </td>
+</tr>
+<tr>
+<td>SO2</td>
+<td id="so2"> {{so2}} </td>
+</tr>
+<tr>
+<td>NO2</td>
+<td id="no2"> {{no2}} </td>
+</tr>
+<tr>
+<td>PM10</td>
+<td id="pm10"> {{pm10}} </td>
+</tr>
+<tr>
+<td>PM2.5</td>
+<td id="pm25"> {{pm25}} </td>
+</tr>
+<tr>
+<td>OZONE</td>
+<td id="ozone"> {{o3}} </td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
